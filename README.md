@@ -50,3 +50,10 @@ transfer-learning.ipynb - Dataset do MNIST
 cats_vs_dogs - Dataset utilizado que engloba duas classes: gatos e cachorros
 
 dataset_details - Dataset para download
+
+Conclusão:
+     O projeto consistiu em aplicar transfer learning para classificar imagens de cachorros e gatos utilizando o dataset CatsVsDogs. A ideia foi aproveitar um modelo já pré-treinado em milhões de imagens (como o MobileNetV2) e adaptar suas últimas camadas para distinguir apenas duas classes. Isso reduziu drasticamente o tempo de treinamento e a necessidade de recursos computacionais, já que o modelo não precisou reaprender padrões básicos de visão como bordas, texturas e formas. Além disso, o uso de visualizações com Matplotlib permitiu observar as amostras originais e comparar com as previsões do modelo após o treino, tornando o aprendizado mais palpável.
+
+     Esse exercício mostrou como o transfer learning é uma estratégia poderosa em machine learning, pois permite reutilizar conhecimento acumulado em grandes bases de dados e aplicá-lo em problemas específicos com menos esforço. No caso dos cachorros e gatos, o modelo rapidamente aprendeu a diferenciar as duas classes, demonstrando que transfer learning não só economiza tempo e recursos, mas também melhora a capacidade de generalização. É uma abordagem que amplia as possibilidades de aplicação prática da inteligência artificial em cenários reais, mesmo quando não temos datasets gigantescos disponíveis.
+
+     Agradeço ao professor Diego Bruno e toda a equipe da DIO e BAIRES DEV por proporcionar tal momento de tanto aprendizado, gratidão!
